@@ -2,22 +2,23 @@
 
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>My Joke</title>
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>My Joke</title>
 
-		<link rel="stylesheet" type="text/css" href="../static/style/style.css" />
-	</head>
-	<body>
-		<div id="main">
-			<div class="text">
-				<h1 id="question"></h1>
-				<h1 id="answer"></h1>
-			</div>
+	<link rel="stylesheet" type="text/css" href="../static/style/style.css" />
+</head>
+<body onload=getNewJoke()>
+	<div id="main">
+		<div class="text">
+			<h1 id="question"></h1>
+			<h1 id="answer"></h1>
 		</div>
+		<button class="btn_1" onclick=getNewJoke()>Get New Joke</button>
+	</div>
 
-		<script src="../static/script/index.js"></script>
-	</body>
+	<script src="../static/script/index.js"></script>
+</body>
 </html>
